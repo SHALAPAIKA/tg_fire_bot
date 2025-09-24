@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # 🔑 Твой токен и ID
 TOKEN = os.getenv("TOKEN")
-CHAT_ID = int(os.getenv("CHAT_ID"))
+OWNER_ID = int(os.getenv("OWNER_ID"))
 
 # 📂 Файлы для хранения данных
 USERS_FILE = Path("users.json")
@@ -159,4 +159,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
