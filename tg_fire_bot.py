@@ -6,8 +6,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # 🔑 Твой токен и ID
-TOKEN = "8061629633:AAHR_ZJC1LRinp-PUfjFoeJsdgcIHge3F6s"
-OWNER_ID = 1431532712  # 👈 замени на свой Telegram ID
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = int(os.getenv("CHAT_ID"))
 
 # 📂 Файлы для хранения данных
 USERS_FILE = Path("users.json")
@@ -159,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
