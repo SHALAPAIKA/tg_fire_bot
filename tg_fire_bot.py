@@ -6,6 +6,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # 🔑 Твой токен и ID
+import os
 TOKEN = os.getenv("TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID"))
 
@@ -159,5 +160,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
