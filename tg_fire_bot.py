@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # 🔑 Настройки
-TOKEN = "8061629633:AAHR_ZJC1LRinp-PUfjFoeJsdgcIHge3F6s"
-CHAT_ID = -1002286664635  # ID группы
-OWNER_ID = 1431532712      # твой Telegram ID
+TOKEN = "________"
+CHAT_ID = XXXXXX  # ID группы
+OWNER_ID = XXXXXXXXX      # твой Telegram ID
 
 # 📂 файлы для хранения
 USERS_FILE = "users.txt"
